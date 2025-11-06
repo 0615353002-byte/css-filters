@@ -35,7 +35,13 @@ selector {
 ## Gradients
 ```css
 selector {
-    background-image: linear-gradient(color1, color2, color3, ... ) | radial-gradient(color1, color2, ...);
+    background-image: linear-gradient(to side-or-corner, color1, color2, ... ) | radial-gradient(color1, color2, ...);
+}
+```
+### Example
+```css
+div {
+    background-image: linear-gradient(to right, red, blue);
 }
 ```
 
