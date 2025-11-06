@@ -1,12 +1,12 @@
 # css-animations
 
 ## Learning Target
-- I am learning how to work with images in CSS
+- I am learning how to work with filters and background images in CSS
 
 ## Success Criteria
 - I can use the ```filter:``` to apply filters to an image (```blur()```, ```grayscale()```, etc.)
-- I can set images as the background for an element using ```background: url('image.jpg')'```
-- I can create animations using filters
+- I can create filter animations and transitions
+- I can set images and gradients as the background for an element using ```background-image:```
 
 
 
@@ -44,6 +44,7 @@ div {
     background-image: linear-gradient(to right, red, blue);
 }
 ```
+See more about gradients at [W3Schools Linear Gradient](https://www.w3schools.com/cssref/func_linear-gradient.php)
 
 # Practice Assignment
 1. Make the elephant "disapper" when clicked (shrink and fade the opacity to 0)
